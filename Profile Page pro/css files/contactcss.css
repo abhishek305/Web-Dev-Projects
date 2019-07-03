@@ -1,0 +1,80 @@
+body
+{
+    background-image:url(/images/p2.jpg);
+    background-size: cover;
+}
+ul 
+{
+    display: inline;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+li
+{
+    display: inline;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+a:hover{
+    text-decoration: underline;
+    
+    color:rgb(187, 60, 51);
+}
+.icons a
+{
+    padding-left: 80px;
+    /*margin-right:auto;
+    margin-bottom: 3px;*/
+    font-size: 30px;
+    margin-top:80px;    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height : 400px;
+}
+.contactus{
+    width: 45%;
+    height:390px; 
+    
+}
+
+.contactus label {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding-bottom: 10px;
+}
+p{
+    margin-top:1%;
+    margin-left:50px;
+    margin-right:50px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.contactus textarea
+{
+    border-radius: 5px;
+}
+
+.contactus button
+{
+    color:black;
+    border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
